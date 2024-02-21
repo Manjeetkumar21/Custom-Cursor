@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    /* position: relative; */
+    
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 6rem;
+}
+.cursor{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    mix-blend-mode: difference;
+}
